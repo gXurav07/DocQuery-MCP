@@ -1,0 +1,55 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging/build output
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Runtime indexes and local databases
+index/
+*.sqlite3
+*.db
+chroma/
+.chroma/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# IDE/editor local state
+.idea/
+.vscode/*
+!.vscode/mcp.json
+
+# Local Codex/agent state
+.codex/
+.agents/
+
+# Keep project data directory structure trackable without committing large PDFs by default.
+data/pdfs/*.pdf
+!data/pdfs/.gitkeep
+
+.vscode/
